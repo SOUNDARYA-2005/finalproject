@@ -1,0 +1,14 @@
+{
+  "type": "object",
+  "properties": {
+    "@timestamp": { "type": "string" },
+    "level": {
+      "type": "string",
+      "enum": ["INFO", "WARN", "ERROR"]
+    },
+    "service": { "type": "string" },
+    "message": { "type": "string" },
+    "ip": { "type": "string" }
+  },
+  "required": ["@timestamp", "level", "service", "message", "ip"]
+}

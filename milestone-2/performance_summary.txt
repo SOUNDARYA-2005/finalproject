@@ -1,0 +1,12 @@
+Dataset Size: 5000 logs
+
+Dask:
+Processing Time: 9.83 sec
+Throughput: 508 logs/sec
+
+Ray:
+Processing Time: 5.62 sec
+Throughput: 888 logs/sec
+
+Conclusion:
+Ray performed ~1.7x faster than Dask in local execution.

@@ -1,0 +1,2 @@
+High error rate detected: 1639 errors
+Internal IP activity from 255 unique IPs
